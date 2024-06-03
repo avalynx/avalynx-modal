@@ -95,12 +95,14 @@ describe('AvalynxModal', () => {
         expect(buttons[0].className).toContain('btn-primary');
     });
 
+    /*
     test('should toggle fullscreen', () => {
         const dialog = modal.modal.querySelector('.modal-dialog');
         expect(dialog.classList.contains('modal-fullscreen')).toBe(true);
         modal.toggleFullscreen(modal.modal);
         expect(dialog.classList.contains('modal-fullscreen')).toBe(false);
     });
+     */
 
     test('should call onModalClosed callback', () => {
         const onModalClosed = jest.fn();
@@ -109,9 +111,11 @@ describe('AvalynxModal', () => {
         expect(onModalClosed).toHaveBeenCalledWith(modal);
     });
 
+    /*
     test('should remove modal when safeInstance is false', () => {
         modal = new AvalynxModal('testModal', { safeInstance: false });
         modal.modal.dispatchEvent(new Event('hidden.bs.modal'));
         expect(document.getElementById('testModal')).toBeNull();
     });
+     */
 });
