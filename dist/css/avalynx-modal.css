@@ -1,0 +1,46 @@
+/**
+ * AvalynxModal
+ *
+ * AvalynxModal is a simple modal system for web applications with fullscreen support. Based on Bootstrap >=5.3 without any framework dependencies.
+ *
+ * @version 0.0.1
+ * @license MIT
+ * @author https://github.com/avalynx/avalynx-modal/graphs/contributors
+ * @website https://github.com/avalynx/
+ * @repository https://github.com/avalynx/avalynx-modal.git
+ * @bugs https://github.com/avalynx/avalynx-modal/issues
+ *
+ */
+
+.avalynx-modal .avalynx-modal-dialog {
+    max-width: 95%;
+    max-height: 95%;
+    width: 800px;
+    height: 600px;
+}
+
+.avalynx-modal .avalynx-modal-btn-fullscreen {
+    --avalynx-modal-btn-fullscreen-bg: url("data:image/svg+xml,%3c!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3a//fontawesome.com%20License%20-%20https%3a//fontawesome.com/license/free%20Copyright%202024%20Fonticons%2c%20Inc.--%3e%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath d='M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM96 96H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32s14.3-32 32-32z' fill='%23000'/%3e%3c/svg%3e");
+    background: transparent var(--avalynx-modal-btn-fullscreen-bg) center/2em auto no-repeat;
+}
+
+.avalynx-modal .avalynx-modal-dialog .modal-fullscreen .avalynx-modal-btn-fullscreen {
+    --avalynx-modal-btn-fullscreen-bg: url("data:image/svg+xml,%3c!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3a//fontawesome.com%20License%20-%20https%3a//fontawesome.com/license/free%20Copyright%202024%20Fonticons%2c%20Inc.--%3e%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath d='M32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z'/%3e%3c/svg%3e");
+    background: transparent var(--avalynx-modal-btn-fullscreen-bg) center/2em auto no-repeat;
+}
+
+.avalynx-modal .avalynx-modal-btn-fullscreen:focus,
+.avalynx-modal .avalynx-modal-btn-close:focus {
+    box-shadow: none;
+}
+
+.avalynx-modal .avalynx-modal-btn-close {
+    --avalynx-modal-btn-close-bg: url("data:image/svg+xml,%3c!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3a//fontawesome.com%20License%20-%20https%3a//fontawesome.com/license/free%20Copyright%202024%20Fonticons%2c%20Inc.--%3e%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath d='M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z'/%3e%3c/svg%3e");
+    background: transparent var(--avalynx-modal-btn-close-bg) center/2em auto no-repeat;
+}
+
+.avalynx-modal .modal-header .btn-close {
+    margin-left: calc(0.5 * var(--bs-modal-header-padding-y));
+    margin-right: 0rem;
+}
+
