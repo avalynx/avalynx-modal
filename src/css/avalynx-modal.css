@@ -24,7 +24,7 @@
     background: transparent var(--avalynx-modal-btn-fullscreen-bg) center/2em auto no-repeat;
 }
 
-.avalynx-modal .avalynx-modal-dialog .modal-fullscreen .avalynx-modal-btn-fullscreen {
+.avalynx-modal .modal-fullscreen .avalynx-modal-btn-fullscreen {
     --avalynx-modal-btn-fullscreen-bg: url("data:image/svg+xml,%3c!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3a//fontawesome.com%20License%20-%20https%3a//fontawesome.com/license/free%20Copyright%202024%20Fonticons%2c%20Inc.--%3e%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath d='M32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z'/%3e%3c/svg%3e");
     background: transparent var(--avalynx-modal-btn-fullscreen-bg) center/2em auto no-repeat;
 }
