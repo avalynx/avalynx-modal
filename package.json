@@ -36,7 +36,8 @@
     "url": "https://github.com/avalynx/avalynx-modal/issues"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "shx rm -rf dist; shx mkdir -p dist/js/; shx cp src/js/avalynx-modal.js dist/js/avalynx-modal.js; shx cp src/js/avalynx-modal.js dist/js/avalynx-modal.esm.js; node build.js dist/js/avalynx-modal.esm.js; shx mkdir -p dist/css/; shx cp src/css/avalynx-modal.css dist/css/avalynx-modal.css"
   },
   "dependencies": {
     "bootstrap": ">=5.3"
@@ -47,6 +48,8 @@
     "babel-jest": "^29",
     "jest": "^29",
     "jest-environment-jsdom": "^29",
-    "@testing-library/jest-dom": "^6"
+    "@testing-library/jest-dom": "^6",
+    "shelljs": "^0",
+    "shx": "^0"
   }
 }
