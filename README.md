@@ -42,8 +42,8 @@ Replace `path/to/avalynx-modal.js` and `path/to/avalynx-modal.css` with the actu
 AvalynxModal is also available via [jsDelivr](https://www.jsdelivr.com/). You can include it in your project like this:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@0.0.1/dist/css/avalynx-modal.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@0.0.1/dist/js/avalynx-modal.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@0.0.2/dist/css/avalynx-modal.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@0.0.2/dist/js/avalynx-modal.js"></script>
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxModal displays correctly.

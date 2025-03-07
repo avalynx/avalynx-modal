@@ -2,7 +2,7 @@
   "name": "avalynx-modal",
   "title": "AvalynxModal",
   "description": "AvalynxModal is a simple modal system for web applications with fullscreen support. Based on Bootstrap >=5.3 without any framework dependencies.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/js/avalynx-modal.js",
   "module": "dist/js/avalynx-modal.esm.js",
