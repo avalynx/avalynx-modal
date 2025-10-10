@@ -3,7 +3,7 @@
  *
  * AvalynxModal is a simple modal system for web applications with fullscreen support. Based on Bootstrap >=5.3 without any framework dependencies.
  *
- * @version 1.0.0
+ * @version 1.0.1
  * @license MIT
  * @author https://github.com/avalynx/avalynx-modal/graphs/contributors
  * @website https://github.com/avalynx/
@@ -34,6 +34,9 @@
 class AvalynxModal {
     constructor(id, options = {}, language = {}) {
         this.id = id;
+        if (options === null || typeof options !== 'object') {
+            options = {};
+        }
         this.options = {
             modalFullscreen: false,
             title: '',
@@ -53,6 +56,9 @@ class AvalynxModal {
             onModalClosed: null,
             ...options
         };
+        if (language === null || typeof language !== 'object') {
+            language = {};
+        }
         this.language = {
             ...language
         };
@@ -132,7 +138,9 @@ class AvalynxModal {
     async fetchData(url, isHtml) {
         if (this.options.loader === null) {
             const overlay = document.getElementById(`${this.id}-overlay`);
-            overlay.style.display = 'flex';
+            if (overlay) {
+                overlay.style.display = 'flex';
+            }
         } else {
             this.options.loader.load = true;
         }
@@ -194,7 +202,7 @@ class AvalynxModal {
 
     setTitle(content, isHtml = this.options.titleIsHtml) {
         const modalTitleElement = this.modal.querySelector('.modal-title');
-        if (this.options.titleIsHtml) {
+        if (isHtml) {
             modalTitleElement.innerHTML = content;
         } else {
             modalTitleElement.innerText = content;
@@ -203,7 +211,7 @@ class AvalynxModal {
 
     setBody(content, isHtml = this.options.bodyIsHtml) {
         const modalBodyElement = this.modal.querySelector('.modal-body');
-        if (this.options.bodyIsHtml) {
+        if (isHtml) {
             modalBodyElement.innerHTML = content;
         } else {
             modalBodyElement.innerText = content;
@@ -262,4 +270,8 @@ class AvalynxModal {
             this.modal.querySelector('.modal-body').appendChild(overlay);
         }
     }
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = AvalynxModal
 }
