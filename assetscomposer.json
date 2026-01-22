@@ -1,10 +1,12 @@
 {
   "name": "avalynx/avalynx-modal",
   "files": [
+    "dist/css/avalynx-modal.css",
     "dist/js/avalynx-modal.esm.js",
     "dist/js/avalynx-modal.js"
   ],
   "files-dev": [
+    "src/css/avalynx-modal.css",
     "src/js/avalynx-modal.js"
   ]
 }
