@@ -3,7 +3,7 @@
  *
  * AvalynxModal is a simple modal system for web applications with fullscreen support. Based on Bootstrap >=5.3 without any framework dependencies.
  *
- * @version 1.0.2
+ * @version 1.0.3
  * @license MIT
  * @author https://github.com/avalynx/avalynx-modal/graphs/contributors
  * @website https://github.com/avalynx/
@@ -272,6 +272,7 @@ class AvalynxModal {
     }
 }
 
+/* istanbul ignore next */
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = AvalynxModal
 }

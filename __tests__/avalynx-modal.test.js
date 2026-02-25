@@ -591,6 +591,29 @@ describe('AvalynxModal', () => {
     });
 
     describe('Edge cases and error handling', () => {
+        test('handles template without fullscreen or close buttons', () => {
+            const template = document.createElement('template');
+            template.id = 'avalynx-modal-template';
+            template.innerHTML = `
+                <div class="avalynx-modal modal fade" tabindex="-1" id="test-modal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"></h5>
+                            </div>
+                            <div class="modal-body"></div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(template);
+
+            const modal = new AvalynxModal('test-modal');
+            expect(modal.modal.querySelector('.avalynx-modal-btn-fullscreen')).toBeNull();
+            expect(modal.modal.querySelector('.avalynx-modal-btn-close')).toBeNull();
+        });
+
         test('handles multiple modals with different IDs', () => {
             const modal1 = new AvalynxModal('modal-1');
             const modal2 = new AvalynxModal('modal-2');

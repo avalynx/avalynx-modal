@@ -1,5 +1,13 @@
 # AvalynxModal
 
+[![npm version](https://img.shields.io/npm/v/avalynx-modal)](https://www.npmjs.com/package/avalynx-modal)
+[![npm downloads](https://img.shields.io/npm/dt/avalynx-modal)](https://www.npmjs.com/package/avalynx-modal)
+[![jsDelivr](https://img.shields.io/jsdelivr/npm/hm/avalynx-modal)](https://www.jsdelivr.com/package/npm/avalynx-modal)
+[![License](https://img.shields.io/npm/l/avalynx-modal)](LICENSE)
+[![Tests](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/avalynx/avalynx-modal/branch/main/graph/badge.svg)](https://codecov.io/gh/avalynx/avalynx-modal)
+[![GitHub stars](https://img.shields.io/github/stars/avalynx/avalynx-modal?style=flat&logo=github)](https://github.com/avalynx/avalynx-modal)
+
 AvalynxModal is a simple modal system for web applications with fullscreen support. Based on Bootstrap >=5.3 without any framework dependencies.
 
 ## Features
@@ -42,8 +50,8 @@ Replace `path/to/avalynx-modal.js` and `path/to/avalynx-modal.css` with the actu
 AvalynxModal is also available via [jsDelivr](https://www.jsdelivr.com/). You can include it in your project like this:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.2/dist/css/avalynx-modal.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.2/dist/js/avalynx-modal.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.3/dist/css/avalynx-modal.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.3/dist/js/avalynx-modal.js"></script>
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxModal displays correctly.
