@@ -1,12 +1,12 @@
 # AvalynxModal
 
-[![npm version](https://img.shields.io/npm/v/avalynx-modal)](https://www.npmjs.com/package/avalynx-modal)
-[![npm downloads](https://img.shields.io/npm/dt/avalynx-modal)](https://www.npmjs.com/package/avalynx-modal)
-[![jsDelivr](https://img.shields.io/jsdelivr/npm/hm/avalynx-modal)](https://www.jsdelivr.com/package/npm/avalynx-modal)
-[![License](https://img.shields.io/npm/l/avalynx-modal)](LICENSE)
-[![Tests](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml)
-[![codecov](https://codecov.io/gh/avalynx/avalynx-modal/branch/main/graph/badge.svg)](https://codecov.io/gh/avalynx/avalynx-modal)
-[![GitHub stars](https://img.shields.io/github/stars/avalynx/avalynx-modal?style=flat&logo=github)](https://github.com/avalynx/avalynx-modal)
+[![npm version](https://jbs-newmedia.de/badge/npm/avalynx-modal/version.svg)](https://www.npmjs.com/package/avalynx-modal)
+[![npm downloads](https://jbs-newmedia.de/badge/npm/avalynx-modal/download.svg)](https://www.npmjs.com/package/avalynx-modal)
+[![jsDelivr](https://jbs-newmedia.de/badge/jsdelivr/avalynx-modal/hits.svg)](https://www.jsdelivr.com/package/npm/avalynx-modal)
+[![License](https://jbs-newmedia.de/badge/npm/avalynx-modal/license.svg)](LICENSE)
+[![Tests](https://jbs-newmedia.de/badge/github/avalynx/avalynx-modal/tests.svg)](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml)
+[![codecov](https://jbs-newmedia.de/badge/codecov/avalynx/avalynx-modal/coverage.svg)](https://codecov.io/gh/avalynx/avalynx-modal)
+[![GitHub stars](https://jbs-newmedia.de/badge/github/avalynx/avalynx-modal/stars.svg)](https://github.com/avalynx/avalynx-modal)
 
 AvalynxModal ist ein einfaches Modal-System für Webanwendungen mit Vollbildunterstützung. Basierend auf Bootstrap >=5.3 ohne jegliche Framework-Abhängigkeiten.
 
@@ -16,7 +16,7 @@ AvalynxModal ist ein einfaches Modal-System für Webanwendungen mit Vollbildunte
 - **Bootstrap-Integration**: Entwickelt für die nahtlose Integration mit Bootstrap >= 5.3.
 - **Einfach zu bedienen**: Einfache API zum Erstellen und Verwalten von Modals in Ihren Webanwendungen.
 
-## Beispiel
+## Beispiele
 
 Hier ist ein einfaches Beispiel für die Verwendung von AvalynxModal in Ihrem Projekt:
 
@@ -50,8 +50,8 @@ Ersetzen Sie `path/to/avalynx-modal.js` und `path/to/avalynx-modal.css` durch de
 AvalynxModal ist auch über [jsDelivr](https://www.jsdelivr.com/) verfügbar. Sie können es wie folgt in Ihr Projekt einbinden:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.3/dist/css/avalynx-modal.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.3/dist/js/avalynx-modal.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.4/dist/css/avalynx-modal.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.4/dist/js/avalynx-modal.js"></script>
 ```
 
 Stellen Sie sicher, dass Sie auch das JS/CSS von Bootstrap in Ihr Projekt einbinden, um sicherzustellen, dass AvalynxModal korrekt angezeigt wird.
@@ -162,7 +162,7 @@ AvalynxModal ermöglicht die folgenden Optionen zur Anpassung:
 
 ## Beitragen
 
-Beiträge sind willkommen! Wenn Sie etwas beitragen möchten, forken Sie bitte das Repository und senden Sie einen Pull-Request mit Ihren Änderungen oder Verbesserungen. Wir suchen nach Beiträgen in den folgenden Bereichen:
+Beiträge sind willkommen! Wenn Sie etwas beitragen möchten, forken Sie bitte das Repository und senden Sie einen Pull-Request mit Ihren Änderungen oder Verbesserungen. Wir suchen Beiträge in den folgenden Bereichen:
 
 - Fehlerbehebungen (Bug fixes)
 - Funktionserweiterungen
@@ -176,6 +176,6 @@ AvalynxModal ist Open-Source-Software, die unter der [MIT-Lizenz](LICENSE) lizen
 
 ## Kontakt
 
-Wenn Sie Fragen, Funktionswünsche oder Probleme haben, öffnen Sie bitte ein Issue in unserem [GitHub-Repository](https://github.com/avalynx/avalynx-modal/issues) oder senden Sie einen Pull-Request.
+Wenn Sie Fragen, Funktionswünsche oder Probleme haben, eröffnen Sie bitte ein Issue in unserem [GitHub-Repository](https://github.com/avalynx/avalynx-modal/issues) oder reichen Sie einen Pull-Request ein.
 
 Vielen Dank, dass Sie AvalynxModal für Ihr Projekt in Betracht ziehen!

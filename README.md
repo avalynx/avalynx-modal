@@ -1,12 +1,14 @@
 # AvalynxModal
 
-[![npm version](https://img.shields.io/npm/v/avalynx-modal)](https://www.npmjs.com/package/avalynx-modal)
-[![npm downloads](https://img.shields.io/npm/dt/avalynx-modal)](https://www.npmjs.com/package/avalynx-modal)
-[![jsDelivr](https://img.shields.io/jsdelivr/npm/hm/avalynx-modal)](https://www.jsdelivr.com/package/npm/avalynx-modal)
-[![License](https://img.shields.io/npm/l/avalynx-modal)](LICENSE)
-[![Tests](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml)
-[![codecov](https://codecov.io/gh/avalynx/avalynx-modal/branch/main/graph/badge.svg)](https://codecov.io/gh/avalynx/avalynx-modal)
-[![GitHub stars](https://img.shields.io/github/stars/avalynx/avalynx-modal?style=flat&logo=github)](https://github.com/avalynx/avalynx-modal)
+[![npm version](https://jbs-newmedia.de/badge/npm/avalynx-modal/version.svg)](https://www.npmjs.com/package/avalynx-modal)
+[![npm downloads](https://jbs-newmedia.de/badge/npm/avalynx-modal/download.svg)](https://www.npmjs.com/package/avalynx-modal)
+[![Composer version](https://jbs-newmedia.de/badge/composer/avalynx/avalynx-modal/version.svg)](https://packagist.org/packages/avalynx/avalynx-modal)
+[![Composer downloads](https://jbs-newmedia.de/badge/composer/avalynx/avalynx-modal/download.svg)](https://packagist.org/packages/avalynx/avalynx-modal)
+[![jsDelivr](https://jbs-newmedia.de/badge/jsdelivr/avalynx-modal/hits.svg)](https://www.jsdelivr.com/package/npm/avalynx-modal)
+[![License](https://jbs-newmedia.de/badge/npm/avalynx-modal/license.svg)](LICENSE)
+[![Tests](https://jbs-newmedia.de/badge/github/avalynx/avalynx-modal/tests.svg)](https://github.com/avalynx/avalynx-modal/actions/workflows/tests.yml)
+[![codecov](https://jbs-newmedia.de/badge/codecov/avalynx/avalynx-modal/coverage.svg)](https://codecov.io/gh/avalynx/avalynx-modal)
+[![GitHub stars](https://jbs-newmedia.de/badge/github/avalynx/avalynx-modal/stars.svg)](https://github.com/avalynx/avalynx-modal)
 
 AvalynxModal is a simple modal system for web applications with fullscreen support. Based on Bootstrap >=5.3 without any framework dependencies.
 
@@ -16,7 +18,7 @@ AvalynxModal is a simple modal system for web applications with fullscreen suppo
 - **Bootstrap Integration**: Designed for seamless integration with Bootstrap >= 5.3.
 - **Easy to Use**: Simple API for creating and managing modals within your web applications.
 
-## Example
+## Examples
 
 Here's a simple example of how to use AvalynxModal in your project:
 
@@ -50,8 +52,8 @@ Replace `path/to/avalynx-modal.js` and `path/to/avalynx-modal.css` with the actu
 AvalynxModal is also available via [jsDelivr](https://www.jsdelivr.com/). You can include it in your project like this:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.3/dist/css/avalynx-modal.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.3/dist/js/avalynx-modal.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.4/dist/css/avalynx-modal.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-modal@1.0.4/dist/js/avalynx-modal.js"></script>
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxModal displays correctly.
